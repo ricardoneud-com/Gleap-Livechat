@@ -1,0 +1,37 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "gleaplivechat",
+  "version": "1.1",
+  "category": "productivity",
+  "description": {
+    "name": "Gleap Livechat",
+    "tagline": "Easily integrate Gleap Live Chat into your WHMCS installation with this lightweight and user-friendly addon.",
+    "long": "The Gleap Live Chat Addon seamlessly integrates with WHMCS, providing a secure and intelligent live chat experience for your customers. It allows for customer support, user tracking, and optional identity verification, with real-time data synchronization between WHMCS and Gleap.",
+    "features": [
+      "Easily add the Gleap Live Chat widget to the WHMCS client area.",
+      "Loads asynchronously to avoid slowing down your pages.",
+      "Supports cookie-based session tracking across subdomains.",
+      "Automatically identifies logged-in customers in Gleap.",
+      "Optional Identity Verification to prevent third parties from impersonating users.",
+      "Supports Gleap user hash for secure identification.",
+      "updateContact is always executed to keep user data up-to-date.",
+      "Syncs WHMCS customer data with Gleap when the user is logged in and DataSync is enabled.",
+      "If DataSync is disabled or the user is no longer logged into WHMCS, the Gleap session is automatically cleared (clearIdentity) to prevent stale sessions.",
+      "Enable or disable live chat.",
+      "Configure cookies, identity verification, identity secret, and data synchronization directly in WHMCS/Gleap."
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "support_url": "https:\/\/ricardoneud.com\/contact"
+  },
+  "authors": [
+    {
+      "name": "Ricardoneud.com",
+      "homepage": "https:\/\/ricardoneud.com\/"
+    }
+  ]
+}
